@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6145F6991CC15E1800753A69 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6145F6981CC15E1800753A69 /* AppDelegate.swift */; };
+		6145F69B1CC15E1800753A69 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6145F69A1CC15E1800753A69 /* ViewController.swift */; };
+		6145F69E1CC15E1800753A69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6145F69C1CC15E1800753A69 /* Main.storyboard */; };
+		6145F6A11CC15E1800753A69 /* smoothInvestCheck_Aden.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6145F69F1CC15E1800753A69 /* smoothInvestCheck_Aden.xcdatamodeld */; };
+		6145F6A31CC15E1800753A69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6145F6A21CC15E1800753A69 /* Assets.xcassets */; };
+		6145F6A61CC15E1800753A69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6145F6A41CC15E1800753A69 /* LaunchScreen.storyboard */; };
+		6145F6B11CC15E1800753A69 /* smoothInvestCheck_AdenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6145F6B01CC15E1800753A69 /* smoothInvestCheck_AdenTests.swift */; };
+		6145F6BC1CC15E1800753A69 /* smoothInvestCheck_AdenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6145F6BB1CC15E1800753A69 /* smoothInvestCheck_AdenUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6145F6AD1CC15E1800753A69 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6145F68D1CC15E1800753A69 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6145F6941CC15E1800753A69;
+			remoteInfo = smoothInvestCheck_Aden;
+		};
+		6145F6B81CC15E1800753A69 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6145F68D1CC15E1800753A69 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6145F6941CC15E1800753A69;
+			remoteInfo = smoothInvestCheck_Aden;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6145F6951CC15E1800753A69 /* smoothInvestCheck_Aden.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = smoothInvestCheck_Aden.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6145F6981CC15E1800753A69 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6145F69A1CC15E1800753A69 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6145F69D1CC15E1800753A69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6145F6A01CC15E1800753A69 /* smoothInvestCheck_Aden.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = smoothInvestCheck_Aden.xcdatamodel; sourceTree = "<group>"; };
+		6145F6A21CC15E1800753A69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6145F6A51CC15E1800753A69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6145F6A71CC15E1800753A69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6145F6AC1CC15E1800753A69 /* smoothInvestCheck_AdenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = smoothInvestCheck_AdenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6145F6B01CC15E1800753A69 /* smoothInvestCheck_AdenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = smoothInvestCheck_AdenTests.swift; sourceTree = "<group>"; };
+		6145F6B21CC15E1800753A69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6145F6B71CC15E1800753A69 /* smoothInvestCheck_AdenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = smoothInvestCheck_AdenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6145F6BB1CC15E1800753A69 /* smoothInvestCheck_AdenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = smoothInvestCheck_AdenUITests.swift; sourceTree = "<group>"; };
+		6145F6BD1CC15E1800753A69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6145F6921CC15E1800753A69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6145F6A91CC15E1800753A69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6145F6B41CC15E1800753A69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6145F68C1CC15E1800753A69 = {
+			isa = PBXGroup;
+			children = (
+				6145F6971CC15E1800753A69 /* smoothInvestCheck_Aden */,
+				6145F6AF1CC15E1800753A69 /* smoothInvestCheck_AdenTests */,
+				6145F6BA1CC15E1800753A69 /* smoothInvestCheck_AdenUITests */,
+				6145F6961CC15E1800753A69 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6145F6961CC15E1800753A69 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6145F6951CC15E1800753A69 /* smoothInvestCheck_Aden.app */,
+				6145F6AC1CC15E1800753A69 /* smoothInvestCheck_AdenTests.xctest */,
+				6145F6B71CC15E1800753A69 /* smoothInvestCheck_AdenUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6145F6971CC15E1800753A69 /* smoothInvestCheck_Aden */ = {
+			isa = PBXGroup;
+			children = (
+				6145F6981CC15E1800753A69 /* AppDelegate.swift */,
+				6145F69A1CC15E1800753A69 /* ViewController.swift */,
+				6145F69C1CC15E1800753A69 /* Main.storyboard */,
+				6145F6A21CC15E1800753A69 /* Assets.xcassets */,
+				6145F6A41CC15E1800753A69 /* LaunchScreen.storyboard */,
+				6145F6A71CC15E1800753A69 /* Info.plist */,
+				6145F69F1CC15E1800753A69 /* smoothInvestCheck_Aden.xcdatamodeld */,
+			);
+			path = smoothInvestCheck_Aden;
+			sourceTree = "<group>";
+		};
+		6145F6AF1CC15E1800753A69 /* smoothInvestCheck_AdenTests */ = {
+			isa = PBXGroup;
+			children = (
+				6145F6B01CC15E1800753A69 /* smoothInvestCheck_AdenTests.swift */,
+				6145F6B21CC15E1800753A69 /* Info.plist */,
+			);
+			path = smoothInvestCheck_AdenTests;
+			sourceTree = "<group>";
+		};
+		6145F6BA1CC15E1800753A69 /* smoothInvestCheck_AdenUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6145F6BB1CC15E1800753A69 /* smoothInvestCheck_AdenUITests.swift */,
+				6145F6BD1CC15E1800753A69 /* Info.plist */,
+			);
+			path = smoothInvestCheck_AdenUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6145F6941CC15E1800753A69 /* smoothInvestCheck_Aden */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6145F6C01CC15E1800753A69 /* Build configuration list for PBXNativeTarget "smoothInvestCheck_Aden" */;
+			buildPhases = (
+				6145F6911CC15E1800753A69 /* Sources */,
+				6145F6921CC15E1800753A69 /* Frameworks */,
+				6145F6931CC15E1800753A69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = smoothInvestCheck_Aden;
+			productName = smoothInvestCheck_Aden;
+			productReference = 6145F6951CC15E1800753A69 /* smoothInvestCheck_Aden.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6145F6AB1CC15E1800753A69 /* smoothInvestCheck_AdenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6145F6C31CC15E1800753A69 /* Build configuration list for PBXNativeTarget "smoothInvestCheck_AdenTests" */;
+			buildPhases = (
+				6145F6A81CC15E1800753A69 /* Sources */,
+				6145F6A91CC15E1800753A69 /* Frameworks */,
+				6145F6AA1CC15E1800753A69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6145F6AE1CC15E1800753A69 /* PBXTargetDependency */,
+			);
+			name = smoothInvestCheck_AdenTests;
+			productName = smoothInvestCheck_AdenTests;
+			productReference = 6145F6AC1CC15E1800753A69 /* smoothInvestCheck_AdenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6145F6B61CC15E1800753A69 /* smoothInvestCheck_AdenUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6145F6C61CC15E1800753A69 /* Build configuration list for PBXNativeTarget "smoothInvestCheck_AdenUITests" */;
+			buildPhases = (
+				6145F6B31CC15E1800753A69 /* Sources */,
+				6145F6B41CC15E1800753A69 /* Frameworks */,
+				6145F6B51CC15E1800753A69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6145F6B91CC15E1800753A69 /* PBXTargetDependency */,
+			);
+			name = smoothInvestCheck_AdenUITests;
+			productName = smoothInvestCheck_AdenUITests;
+			productReference = 6145F6B71CC15E1800753A69 /* smoothInvestCheck_AdenUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6145F68D1CC15E1800753A69 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = paperboy;
+				TargetAttributes = {
+					6145F6941CC15E1800753A69 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					6145F6AB1CC15E1800753A69 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 6145F6941CC15E1800753A69;
+					};
+					6145F6B61CC15E1800753A69 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 6145F6941CC15E1800753A69;
+					};
+				};
+			};
+			buildConfigurationList = 6145F6901CC15E1800753A69 /* Build configuration list for PBXProject "smoothInvestCheck_Aden" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6145F68C1CC15E1800753A69;
+			productRefGroup = 6145F6961CC15E1800753A69 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6145F6941CC15E1800753A69 /* smoothInvestCheck_Aden */,
+				6145F6AB1CC15E1800753A69 /* smoothInvestCheck_AdenTests */,
+				6145F6B61CC15E1800753A69 /* smoothInvestCheck_AdenUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6145F6931CC15E1800753A69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6145F6A61CC15E1800753A69 /* LaunchScreen.storyboard in Resources */,
+				6145F6A31CC15E1800753A69 /* Assets.xcassets in Resources */,
+				6145F69E1CC15E1800753A69 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6145F6AA1CC15E1800753A69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6145F6B51CC15E1800753A69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6145F6911CC15E1800753A69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6145F69B1CC15E1800753A69 /* ViewController.swift in Sources */,
+				6145F6A11CC15E1800753A69 /* smoothInvestCheck_Aden.xcdatamodeld in Sources */,
+				6145F6991CC15E1800753A69 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6145F6A81CC15E1800753A69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6145F6B11CC15E1800753A69 /* smoothInvestCheck_AdenTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6145F6B31CC15E1800753A69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6145F6BC1CC15E1800753A69 /* smoothInvestCheck_AdenUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6145F6AE1CC15E1800753A69 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6145F6941CC15E1800753A69 /* smoothInvestCheck_Aden */;
+			targetProxy = 6145F6AD1CC15E1800753A69 /* PBXContainerItemProxy */;
+		};
+		6145F6B91CC15E1800753A69 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6145F6941CC15E1800753A69 /* smoothInvestCheck_Aden */;
+			targetProxy = 6145F6B81CC15E1800753A69 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6145F69C1CC15E1800753A69 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6145F69D1CC15E1800753A69 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6145F6A41CC15E1800753A69 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6145F6A51CC15E1800753A69 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6145F6BE1CC15E1800753A69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6145F6BF1CC15E1800753A69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6145F6C11CC15E1800753A69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = smoothInvestCheck_Aden/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "naheenAden.smoothInvestCheck-Aden";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6145F6C21CC15E1800753A69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = smoothInvestCheck_Aden/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "naheenAden.smoothInvestCheck-Aden";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6145F6C41CC15E1800753A69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = smoothInvestCheck_AdenTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "naheenAden.smoothInvestCheck-AdenTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/smoothInvestCheck_Aden.app/smoothInvestCheck_Aden";
+			};
+			name = Debug;
+		};
+		6145F6C51CC15E1800753A69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = smoothInvestCheck_AdenTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "naheenAden.smoothInvestCheck-AdenTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/smoothInvestCheck_Aden.app/smoothInvestCheck_Aden";
+			};
+			name = Release;
+		};
+		6145F6C71CC15E1800753A69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = smoothInvestCheck_AdenUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "naheenAden.smoothInvestCheck-AdenUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = smoothInvestCheck_Aden;
+			};
+			name = Debug;
+		};
+		6145F6C81CC15E1800753A69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = smoothInvestCheck_AdenUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "naheenAden.smoothInvestCheck-AdenUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = smoothInvestCheck_Aden;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6145F6901CC15E1800753A69 /* Build configuration list for PBXProject "smoothInvestCheck_Aden" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6145F6BE1CC15E1800753A69 /* Debug */,
+				6145F6BF1CC15E1800753A69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6145F6C01CC15E1800753A69 /* Build configuration list for PBXNativeTarget "smoothInvestCheck_Aden" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6145F6C11CC15E1800753A69 /* Debug */,
+				6145F6C21CC15E1800753A69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6145F6C31CC15E1800753A69 /* Build configuration list for PBXNativeTarget "smoothInvestCheck_AdenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6145F6C41CC15E1800753A69 /* Debug */,
+				6145F6C51CC15E1800753A69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6145F6C61CC15E1800753A69 /* Build configuration list for PBXNativeTarget "smoothInvestCheck_AdenUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6145F6C71CC15E1800753A69 /* Debug */,
+				6145F6C81CC15E1800753A69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6145F69F1CC15E1800753A69 /* smoothInvestCheck_Aden.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6145F6A01CC15E1800753A69 /* smoothInvestCheck_Aden.xcdatamodel */,
+			);
+			currentVersion = 6145F6A01CC15E1800753A69 /* smoothInvestCheck_Aden.xcdatamodel */;
+			path = smoothInvestCheck_Aden.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6145F68D1CC15E1800753A69 /* Project object */;
+}
